@@ -5,40 +5,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fabian Rodriguez</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+  <!-- Agregué la biblioteca de íconos en la sección head -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
     body {
       font-family: 'Montserrat', sans-serif;
       margin: 0;
       padding: 0;
-      text-align: center;
-      background-color: #1a1a1a; /* Fondo negro */
-      color: #b3b3b3; /* Texto en gris */
-      font-size: 16px; /* Tamaño de fuente base */
+      text-align: justify;
+      background-color: #2D3142; /* Nuevo color de fondo */
+      color: #CAD3C8; /* Nuevo color de texto */
+      font-size: 14px; /* Tamaño de fuente base */
     }
 
     header {
-      background-color: #333; /* Gris oscuro */
+      background-color: #3F4C6B; /* Nuevo color de encabezado */
       padding: 20px;
     }
 
     section {
-      margin-top: 20px;
-      text-align: left;
-      padding: 20px;
-      border-radius: 8px;
-      background-color: #262626; /* Fondo gris oscuro */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-      color: #b3b3b3; /* Texto en gris */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Ajusté la altura para ocupar toda la ventana */
     }
 
     h1, h2, h3 {
-      color: #555; /* Gris oscuro para los títulos */
+      color: #7A869A; /* Nuevo color para los títulos */
       font-family: 'Roboto', sans-serif;
     }
 
     p {
+      max-width: 500px; /* Nuevo: Ancho máximo para la descripción */
       margin-bottom: 20px;
       font-family: 'Montserrat', sans-serif;
     }
@@ -48,24 +47,27 @@
       padding: 20px;
       margin-bottom: 20px;
       border-radius: 8px;
-      background-color: #333; /* Fondo gris oscuro para los proyectos */
+      background-color: #2D3142; /* Nuevo color de fondo para los proyectos */
     }
 
     .robot-image {
+      width: 30%;
       max-width: 100%;
       height: auto;
-      border-radius: 8px;
-      margin-top: 20px;
+      border-radius: 50px;
+      margin-top: 20px; /* Ajusté el margen superior */
     }
   </style>
 </head>
 
 <body>
+  <!-- Sección de encabezado -->
   <header>
     <h1>Fabian Rodriguez</h1>
-    <p></p>
+    <p>MBA</p>
   </header>
 
+  <!-- Sección de biografía -->
   <section id="biografia">
     <h2>Sobre mí</h2>
     <p>Con más de una década de experiencia en repuestos para motocicletas, lidero importaciones y gestiono 
@@ -76,29 +78,37 @@
     <img src="robot1.jpg" alt="Robot" class="robot-image">
   </section>
 
+  <!-- Sección de habilidades -->
   <section id="habilidades">
     <h2>Habilidades</h2>
-    <p>Diseño gráfico, Adobe Creative Suite, ilustración, branding, UX/UI, diseño web.</p>
+    <p>Excel, PB, Diseño gráfico, Adobe Creative Suite, ilustración, branding.</p>
   </section>
 
+  <!-- Sección de proyectos -->
   <section id="proyectos">
-    <h2>Proyectos Destacados</h2>
+    <h2>Prueba</h2>
     <div class="project">
-      <h3>Proyecto 1</h3>
-      <p>Descripción del proyecto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3>P1</h3>
+      <p>Detail.</p>
     </div>
 
     <div class="project">
-      <h3>Proyecto 2</h3>
-      <p>Descripción del proyecto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3>P2</h3>
+      <p>Destail.</p>
     </div>
   </section>
 
+  <!-- Aquí comienza la sección de contacto -->
   <section id="contacto">
     <h2>Contacto</h2>
-    <p>Email: fabian@example.com</p>
-    <p>LinkedIn: linkedin.com/in/fabianrodriguez</p>
+    <p>Email: fabrod1986@gmail.com</p>
+    <!-- Enlaces a redes sociales con íconos -->
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/fabian-rodriguez-02054582/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
+    <p>Twitter: <a href="https://twitter.com/fabrod1986" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></p>
+    <!-- Puedes agregar más redes sociales según necesites -->
   </section>
+  <!-- Fin de la sección de contacto -->
+
 </body>
 
 </html>
