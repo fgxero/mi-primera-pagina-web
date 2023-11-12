@@ -1,50 +1,97 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Mi Página Web</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fabian Rodriguez - Portafolio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #2c3e50; /* Fondo oscuro */
+      color: #ecf0f1; /* Texto en gris claro */
+    }
+
+    header {
+      background-color: #3498db;
+      padding: 20px;
+    }
+
+    section {
+      margin-top: 20px;
+      text-align: left;
+      padding: 20px;
+      border-radius: 8px;
+      background-color: #ffffff; /* Fondo blanco para las secciones */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      color: #2c3e50; /* Texto en color oscuro */
+    }
+
+    h1, h2, h3 {
+      color: #3498db; /* Azul para los títulos */
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .project {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      background-color: #ecf0f1; /* Fondo gris claro para los proyectos */
+    }
+
+    .robot-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
+
 <body>
-    <header>
-        <h1>Mi Página Web</h1>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#acerca-de">Acerca de</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>Fabian Rodriguez</h1>
+    <p>Diseñador Gráfico</p>
+  </header>
 
-    <section id="inicio">
-        <h2>Bienvenido a Mi Página Web</h2>
-        <p>Este es un sitio web de ejemplo.</p>
-    </section>
+  <section id="biografia">
+    <h2>Biografía</h2>
+    <p>Ingeniero de software apasionado, especializado en soluciones innovadoras y código eficiente. Lista para impulsar tu
+      equipo con experiencia y creatividad.</p>
+    <img src="robot1.jpg" alt="Robot" class="robot-image">
+  </section>
 
-    <section id="acerca-de">
-        <h2>Acerca de Nosotros</h2>
-        <p>Somos un equipo apasionado...</p>
-    </section>
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <p>Diseño gráfico, Adobe Creative Suite, ilustración, branding, UX/UI, diseño web.</p>
+  </section>
 
-    <section id="servicios">
-        <h2>Nuestros Servicios</h2>
-        <ul>
-            <li>Servicio 1</li>
-            <li>Servicio 2</li>
-            <li>Servicio 3</li>
-        </ul>
-    </section>
+  <section id="proyectos">
+    <h2>Proyectos Destacados</h2>
+    <div class="project">
+      <h3>Proyecto 1</h3>
+      <p>Descripción del proyecto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Puedes contactarnos a través de...</p>
-    </section>
+    <div class="project">
+      <h3>Proyecto 2</h3>
+      <p>Descripción del proyecto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </section>
 
-    <footer>
-        <p>Derechos de autor © 2023 Mi Página Web</p>
-    </footer>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: fabian@example.com</p>
+    <p>LinkedIn: linkedin.com/in/fabianrodriguez</p>
+  </section>
 </body>
+
 </html>
