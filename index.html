@@ -23,16 +23,16 @@
     }
 
     section {
-      max-width: 600px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 20px;
-      box-sizing: border-box;
-      margin-bottom: 20px;
-      text-align: justify;
-      margin: 0 auto; /* Centrar en la pantalla */
+      max-width: 800px; /* Establece el ancho máximo del contenedor en 600 píxeles */
+      display: flex; /* Configura el modelo de diseño como flexbox para facilitar el centrado vertical */
+      flex-direction: column; /* Establece la dirección principal del contenedor como columna */
+      justify-content: center; /* Centra los elementos a lo largo del eje principal (vertical en este caso) */
+      align-items: center; /* Centra los elementos a lo largo del eje secundario (horizontal en este caso) */
+      padding: 20px; /* Añade un relleno interno de 20 píxeles alrededor del contenido */
+      box-sizing: border-box; /* Incluye el relleno y el borde en el tamaño total del elemento, evitando que afecten al ancho y alto especificados */
+      margin-bottom: 20px; /* Agrega un margen en la parte inferior del contenedor de 20 píxeles */
+      text-align: justify; /* Justifica el texto dentro del contenedor */
+      margin: 0 auto; /* Establece márgenes superior e inferior a 0 y, de manera especial, utiliza "auto" para centrar horizontalmente el bloque en la pantalla */
     }
 
     h1, h2, h3 {
@@ -42,8 +42,9 @@
     }
 
     p {
-      max-width: 600px;
+      max-width: 800px;
       text-align: justify;
+      text-align: left;
       margin-bottom: 10px;
       font-family: 'Montserrat', sans-serif;
     }
